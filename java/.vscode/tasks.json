@@ -1,0 +1,22 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "java",
+			"mainClass": "main.Enviroment",
+			"targetPath": "${workspaceFolder}/${workspaceFolderBasename}.jar",
+			"elements": [
+				"${compileOutput:CF}",
+				"${dependencies:CF}",
+				"${compileOutput:CF_Java}",
+				"${dependencies:CF_Java}"
+			],
+			"problemMatcher": [],
+			"label": "java: exportjar:java",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}

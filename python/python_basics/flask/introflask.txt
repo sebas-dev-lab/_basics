@@ -1,0 +1,10 @@
+creo carpeta donde voy a trabajar con flask
+instalo el entorno virtual mediante: python3 -m venv venv
+activo el entorno virtual: . venv/bin/activate
+instalo flask: pip3 install Flask
+Creo archivo para iniciar con py donde importo flask
+terminal exporto flask: export FLASK_APP='archivo_creado_previamente.py'
+ejecuto flask flask run
+
+Para ejecutar el modo de desarrollo: export FLASK_ENV=development
+luego flask run
